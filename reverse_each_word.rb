@@ -1,5 +1,4 @@
 def reverse_each_word(phrase)
-  def reverse_each_word(phrase)
     greeting = phrase.split(' ')
     results = ''
     greeting.collect do |word|
