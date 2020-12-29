@@ -9,5 +9,4 @@ def reverse_each_word(phrase)
     # results = ''
     # greeting.each { |word| results += "#{word.reverse} " }
     # results.delete_suffix!(' ')
-  end
 end
