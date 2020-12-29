@@ -5,7 +5,7 @@ def reverse_each_word(phrase)
       results += "#{word.reverse} "
     end
     results.delete_suffix!(' ')
-    
+
     # greeting = phrase.split(' ')
     # results = ''
     # greeting.each { |word| results += "#{word.reverse} " }
