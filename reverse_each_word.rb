@@ -2,7 +2,7 @@ def reverse_each_word(phrase)
   def reverse_each_word(phrase)
     greeting = phrase.split(' ')
     results = ''
-    greeting.map do |word|
+    greeting.collect do |word|
       results += word.reverse
     end
     results.delete_suffix!(' ')
