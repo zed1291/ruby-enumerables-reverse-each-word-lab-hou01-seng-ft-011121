@@ -3,7 +3,6 @@ def reverse_each_word(phrase)
   # puts greeting.inspect
   # greeting.map { |word| word.reverse }
   greeting = phrase.split(' ')
-  puts greeting.inspect
   results = ''
   greeting.each { |word| results += "#{word.reverse} " }
   results
