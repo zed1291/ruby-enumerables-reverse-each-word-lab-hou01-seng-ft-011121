@@ -4,5 +4,5 @@ def reverse_each_word(phrase)
   # greeting.each { |word| results += "#{word.reverse} " }
   # results.delete_suffix!(" ")
   greeting = phrase.split(' ')
-  greeting.collect { |word| word.reverse }
+  greeting.collect { |word| word.reverse}
 end
